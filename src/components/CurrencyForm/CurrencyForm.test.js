@@ -6,7 +6,7 @@ const testCases = [
   { amount: '100', from: 'PLN', to: 'USD' },
   { amount: '20', from: 'USD', to: 'PLN' },
   { amount: '200', from: 'PLN', to: 'USD' },
-  { amount: '345', from: 'USD', to: 'PLN' },
+  { amount: '345', from: 'USD', to: 'PLN' }
 ];
 
 describe('Component CurrencyForm', () => {
