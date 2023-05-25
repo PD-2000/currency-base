@@ -36,4 +36,10 @@ describe('Component ResultBox', () => {
       cleanup();
     }
   });
+  it('should render "Wrong value..." when value is < 0', () => {  
+    render(<ResultBox from='USD' to='PLN' amount={-1} />);
+    const output = screen.getByTestId('wrong-output');
+    expect(output).toHaveTextContent('Wrong value...');
+    cleanup();
+  });
 });
