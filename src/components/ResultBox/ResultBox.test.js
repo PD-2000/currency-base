@@ -11,9 +11,9 @@ const testCasesPLN = [
 
 const testCasesUSD = [
   { amount: '100', expected: '$100.00 = PLN 350.00' },
-  { amount: '200', expected: '$20.00 = PLN 70.00' },
-  { amount: '150', expected: '$200.00 = PLN 700.00' },
-  { amount: '345', expected: '$345.00 = PLN 1207.50' },
+  { amount: '200', expected: '$200.00 = PLN 700.00' },
+  { amount: '150', expected: '$150.00 = PLN 525.00' },
+  { amount: '345', expected: '$345.00 = PLN 1,207.50' },
 ];
 
 describe('Component ResultBox', () => {
